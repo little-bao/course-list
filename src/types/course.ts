@@ -1,0 +1,31 @@
+export interface Course {
+  id: number;
+  index: number;
+  featured: number;
+  cover_image_url: string;
+  cell_cover_image_url: string;
+  trailer_video_url: string;
+  sample_video_url: string;
+  og_image_url: string;
+  slug: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  brand_name: string;
+  brand_logo_image_url: string;
+  brand_logo_image_url_dark: string;
+  course_section_description: string;
+  images: string | null;
+  highlight: string;
+  instructor_profile_image_url: string;
+  instructor_name: string;
+  instructor_description: string;
+  lesson_count: string;
+  lesson_length: string;
+  status: string;
+  tags: string | null;
+  currency: string;
+  price_compared_at: string;
+  price: string;
+  certificate_example_image_url: string;
+}
