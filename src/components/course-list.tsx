@@ -28,7 +28,7 @@ export function CourseList() {
   if (isLoading) {
     return <CourseListSkeleton />;
   }
-
+  // 处理错误
   if (isError) {
     return (
       <div className="flex flex-col items-center justify-center p-8 text-center">
